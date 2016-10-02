@@ -9,14 +9,32 @@ body {
 }
 
 
-.fixed{
-	margin: 0;
-	top:0;
-	text-align: center;
-	background:#eee;
-	height: 10%;
+#fixed{
 	padding:40px;
 	position: fixed;
+	margin: 0;
+	top:0;
+	left: 0;
+	text-align: center;
+	background:#eee;
 	}
+.wrapper{
+	width: 600px;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+}
+h1{
+	font-size: 36px;
+	margin-bottom: 20px;
+	line-height: 45px;
+}
 
-
+.relative{
+	position: relative;
+	background:#eee;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+.absolute{
+	position:absolute;
+}
